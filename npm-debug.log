@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.25
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info prestart insight-bitcore@0.2.7
+6 info start insight-bitcore@0.2.7
+7 verbose unsafe-perm in lifecycle true
+8 info insight-bitcore@0.2.7 Failed to exec start script
+9 error insight-bitcore@0.2.7 start: `INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api`
+9 error Exit status 8
+10 error Failed at the insight-bitcore@0.2.7 start script.
+10 error This is most likely a problem with the insight-bitcore package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api
+10 error You can get their info via:
+10 error     npm owner ls insight-bitcore
+10 error There is likely additional logging output above.
+11 error System Linux 3.13.0-68-generic
+12 error command "/usr/bin/node" "/usr/bin/npm" "start"
+13 error cwd /root/insight2
+14 error node -v v0.10.25
+15 error npm -v 1.4.28
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]
